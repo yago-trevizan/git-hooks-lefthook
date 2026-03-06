@@ -4,4 +4,4 @@ pre-commit:
   jobs:
     - name: eslint
       glob: "src/**/*.js"
-      run: npx eslint {staged_files}
+      run: npx eslint --color {staged_files}
